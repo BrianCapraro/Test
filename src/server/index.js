@@ -4,7 +4,7 @@ const express = require("express");
 const morgan = require("morgan");
 const { createServer: createViteServer } = require("vite");
 
-const PORT = process.env.PORT ?? 4000;
+const PORT = process.env.PORT ?? 5000;
 
 /**
  * The app has to be created in a separate async function
